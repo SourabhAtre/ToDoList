@@ -1,0 +1,111 @@
+body{
+    background: black;
+    font-family: 'Mulish', sans-serif;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.main-container hr{
+    width: 85%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: rgb(116, 116, 116);
+}
+#hr1{
+    width: 45%;
+}
+#hr2{
+    margin-top: 20px;
+}
+.box{
+    border: px solid black;
+    width: 450px;
+    height: 650px;
+    background: white;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.288);
+}
+.container-todo{
+    text-align: center;
+}
+.tile-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.tile-container h3{
+    margin-left: 50px;
+    
+}
+#text{
+    margin-left: 20px;
+    margin-top: 18px;
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+}
+.button-add{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-left: 25px;
+    background-color:#0180FC;
+    color: rgb(255, 255, 255);
+    border: none;
+    margin-top: 1px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn-2-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.button-clear{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    background-color: #0180FC;
+    font-weight: 500;
+    cursor: pointer;
+}
+#btn-all:hover{
+    border: 2px solid black;
+}
+.txt-container{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+#error{
+    color: red;
+    font-size: 12px;
+    margin-left: 120px;
+}
+.list{
+    margin-left: 30px;
+}
+.remove{
+    border: 2px solid black;
+    padding: 7px;
+    text-decoration: none;
+    width: 70px;
+    text-align: center;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    background-color: #0180FC;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    margin-right: 100px;
+    float: right;
+}
